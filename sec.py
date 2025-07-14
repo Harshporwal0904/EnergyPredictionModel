@@ -54,7 +54,7 @@ y = df['High_Usage']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # --- UI ---
-st.title("🏠 Energy Usage Classification App")
+st.title("🏠 Energy Usage Prediction App")
 st.markdown("""
 <div class="main">
 <p style='font-size: 18px;'>
